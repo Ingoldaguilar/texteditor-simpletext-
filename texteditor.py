@@ -1,7 +1,6 @@
 # imports
 from io import open
 from tkinter import *
-from tkinter import messagebox as mb
 from tkinter import filedialog as fd
 
 # global variable
@@ -62,7 +61,6 @@ def save_as():
     else:
         message.set("Save canceled")
         path = ""
-
 
 #root
 root = Tk()
